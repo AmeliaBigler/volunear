@@ -7,4 +7,6 @@ $(function (){
     // TODO: define API function
         // TODO: fetch()
         // TODO: create dynamic HTML elements for each result
+
+    // TODO: call/invoke API function
 })
