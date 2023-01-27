@@ -28,7 +28,7 @@ $(function (){
         localStorage.setItem('searchInput', JSON.stringify(searchInput)); 
 
         // redirect location to result page:
-        var queryString = './search-results.html?q=' + city + state + '&category=' + category;
+        var queryString = './search-results.html?q=' + city + '&state=' + state + '&category=' + category;
         location.assign(queryString);
 
     })
