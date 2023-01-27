@@ -9,12 +9,12 @@ $(function (){
         localStorage.setItem('searchInput', JSON.stringify(searchInput));
     }
 
-    var searchBtn = $('.btn')
+    var searchBtn = $('#search')
 
     // event listener for search button.
     searchBtn.on('click', function(event){
         event.preventDefault();
-        var city = $('#search-input')[0].value; 
+        var city = $('#city-input')[0].value; 
         var state = $('#state-input')[0].value; 
         var category = $('#interest-input')[0].value;
         console.log(city, state, category); //test
